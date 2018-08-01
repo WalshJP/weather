@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Montserrat');
+
+body {
+  background-image: url("https://source.unsplash.com/collection/893395/1920x1080");
+}
+.App {
+  text-align: center;
+  margin: 10%;
+  height: 500px;
+  background-color: #67E5DF;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Maven Pro', sans-serif;
+}
+
+#search {
+  margin: 10%;
+  width: 30%;
+  height: 50px;
+  font-size: 2em;
+  border-radius: 10px;
+  border-width: 1px;
+  text-align: center;
+  background-color: white;
+}
+
+@media only screen and (min-width: 750px) {
+  #info {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin-top: 100px;
+
+  }
+
+}
+
+@media only screen and (min-width: 1550px){
+  #info {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin-top: 0px;
+  }  
+}
+
+#temp, #conditions, #loc {
+ background-color: #AEECEF;
+ color: black;
+ margin: 10px;
+ padding: 20px;
+ font-size: 30px;
+ text-align: center;
+ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
